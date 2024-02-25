@@ -1,0 +1,23 @@
+{
+  "name": "rest-db-2022",
+  "version": "1.0.0",
+  "description": "- GET all users - /api/users\r - GET a single user - /api/users/:id\r - Create an user -  /api/users/  \r - update (patch) a single user - /api/users/:id \r - delete an user - /api/users/:id",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "mongodb": "3.6",
+    "mongoose": "^6.12.6",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.22",
+    "uuid": "^8.3.2"
+  }
+}
